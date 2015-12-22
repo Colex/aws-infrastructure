@@ -17,30 +17,3 @@ variable "bastion_key"            { default = "bastion" }
 variable "zones" {
   default = "a,b,c"
 }
-
-variable "cidr_blocks_public" {
-  default = {
-    zone0 = "10.0.0.0/21"
-    zone1 = "10.0.8.0/21"
-    zone2 = "10.0.16.0/21"
-    zone3 = "10.0.24.0/21"
-  }
-}
-
-variable "cidr_blocks_private" {
-  default = {
-    zone0 = "10.0.32.0/21"
-    zone1 = "10.0.40.0/21"
-    zone2 = "10.0.48.0/21"
-    zone3 = "10.0.56.0/21"
-  }
-}
-
-variable "cidr_blocks_storage" {
-  default = {
-    zone0 = "10.0.64.0/21"
-    zone1 = "10.0.72.0/21"
-    zone2 = "10.0.80.0/21"
-    zone3 = "10.0.88.0/21"
-  }
-}
