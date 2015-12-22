@@ -11,6 +11,7 @@ Since access to the private instances is limited to traffic with the VPC, it wil
 Finally, it will create an **ECS cluster** for deploying web services (you can easily configure it not to if wanted).
 
 ![Image of Yaktocat](https://raw.githubusercontent.com/Colex/aws-infrastructure/master/vpc.png)
+*(Rough illustration of resulting infrastructure)*
 
 ## Requirements
 The only software requirement is ``terraform v0.6.9``.
